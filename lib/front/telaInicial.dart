@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:primeiro/escolhaUsuario.dart';
-import 'package:primeiro/listaBabas.dart';
-import 'package:primeiro/listaPedidos.dart';
-import 'package:primeiro/termosServicos.dart';
+import 'package:primeiro/front/baba/ListaPedidos.dart';
+import 'package:primeiro/front/escolhaUsuario.dart';
+import 'package:primeiro/front/procurador/listaBabas.dart';
+import 'package:primeiro/front/termosServicos.dart';
 
 class TelaInicial extends StatelessWidget {
   @override

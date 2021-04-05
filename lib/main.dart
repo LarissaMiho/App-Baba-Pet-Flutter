@@ -2,8 +2,9 @@ import 'dart:convert';
 import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:primeiro/front/telaInicial.dart';
+import 'package:primeiro/models/item.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'models/item.dart';
 
 void main() {
   runApp(App());
@@ -15,9 +16,9 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Todo app',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: TelaInicial(), // aqui é onde o app começa a funcionar
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.brown,
       ),
     );
   }
@@ -28,9 +29,7 @@ class HomePage extends StatefulWidget {
 
   HomePage() {
     items = [];
-    // items.add(Item(title: "Morango", done: false));
-    // items.add(Item(title: "Uva", done: true));
-    // items.add(Item(title: "Abacate", done: false));
+    
   }
 
   @override
