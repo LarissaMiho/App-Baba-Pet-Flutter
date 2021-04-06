@@ -1,4 +1,4 @@
-package com.example.primeiro
+package com.larissa.babapet
 
 import io.flutter.embedding.android.FlutterActivity
 
